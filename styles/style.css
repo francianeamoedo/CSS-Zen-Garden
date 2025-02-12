@@ -1,0 +1,366 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  color: #000;
+  font-family: Arial, sans-serif;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+p {
+  margin-top: 0;
+}
+
+a,
+a:active,
+a:visited {
+  color: #bb0028;
+}
+
+.page-wrapper {
+  background-image: url("../images/hero.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#zen-intro header {
+  height: 1368px;
+  position: relative;
+
+  color: #263b56;
+  text-transform: capitalize;
+}
+
+#zen-intro header h1 {
+  position: absolute;
+  top: 25%;
+  left: 10%;
+
+  font-size: 40px;
+  font-weight: 400;
+}
+
+#zen-intro header h2 {
+  position: absolute;
+  top: 28%;
+  left: 10%;
+
+  width: 846px;
+
+  font-family: Baumans;
+  font-size: 140px;
+  font-weight: 400;
+}
+
+#zen-intro header h2 abbr {
+  color: #bb0028;
+  text-decoration: none;
+}
+
+#zen-summary {
+  margin: 120px 126px;
+  padding-right: 6%;
+}
+
+#zen-summary p {
+  margin: 0;
+}
+
+#zen-preamble {
+  margin: 0 126px;
+  padding: 10px 0;
+}
+
+#zen-preamble h3,
+.main h3 {
+  font-family: "Baumans";
+  font-size: 80px;
+  font-weight: 400;
+  text-decoration: underline;
+  text-decoration-thickness: 0.2rem;
+  text-underline-offset: 2rem;
+  text-decoration-color: #e52228;
+  line-height: 8rem;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.explanation {
+  width: 590px;
+  position: relative;
+  padding-left: 60%;
+}
+
+.explanation::before {
+  position: absolute;
+  width: 595px;
+  height: 688px;
+  content: " ";
+  left: 0;
+  top: 48px;
+
+  background-image: url("../images/what.is.this.about.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.explanation h3 {
+  text-align: left;
+}
+
+.participation {
+  margin-left: 126px;
+  width: 554px;
+}
+
+.benefits {
+  margin-left: 126px;
+  width: 554px;
+}
+
+.requirements {
+  margin: 0 126px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+footer a,
+footer a:active,
+footer a:visited {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "Baumans";
+  font-size: 55px;
+  color: #fff;
+
+  background-color: #bb0028;
+  border-width: 1px;
+  border-radius: 100%;
+  width: 215px;
+  height: 215px;
+}
+
+aside {
+  position: absolute;
+  top: 3115px;
+  right: 6%;
+}
+
+#design-selection {
+  background-color: #bb0028;
+  border-radius: 120px 0 120px 0;
+
+  padding: 40px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#design-selection h3 {
+  font-family: "Baumans";
+  font-size: 80px;
+  font-weight: 400;
+  color: #fff;
+
+  text-transform: none;
+
+  width: 280px;
+}
+
+#design-selection nav {
+  margin-top: 40px;
+}
+
+#design-selection li {
+  list-style-type: none;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  padding: 10px;
+}
+
+#design-selection a {
+  color: #fff;
+}
+
+#design-archives {
+  margin-top: 60px;
+}
+
+@media (min-width: 1024px) {
+  #zen-intro header {
+    height: 736px;
+  }
+
+  #zen-intro header h1 {
+    top: 22%;
+    left: 8%;
+  }
+
+  #zen-intro header h2 {
+    top: 28%;
+    left: 8%;
+    width: 544px;
+    font-size: 84px;
+  }
+
+  .explanation {
+    width: 456px;
+    padding-left: 52%;
+  }
+
+  .explanation::before {
+    width: 496px;
+  }
+
+  .participation {
+    margin-left: 38px;
+    width: 456px;
+  }
+
+  .benefits {
+    margin-left: 38px;
+    width: 456px;
+  }
+
+  .requirements {
+    margin: 0 38px;
+  }
+
+  aside {
+    top: 2945px;
+    right: -16%;
+  }
+
+  #design-selection {
+    padding: 20px;
+    width: 58%;
+  }
+}
+
+@media (min-width: 1440px) {
+  #zen-intro header {
+    height: 1034px;
+  }
+
+  #zen-intro header h1 {
+    top: 22%;
+    left: 10%;
+  }
+
+  #zen-intro header h2 {
+    top: 28%;
+    left: 10%;
+
+    width: 604px;
+    font-size: 100px;
+  }
+
+  .explanation {
+    width: 590px;
+    padding-left: 52%;
+  }
+
+  .explanation::before {
+    width: 595px;
+  }
+
+  .participation {
+    margin-left: 126px;
+    width: 554px;
+  }
+
+  .benefits {
+    margin-left: 126px;
+    width: 554px;
+  }
+
+  .requirements {
+    margin: 0 126px;
+  }
+
+  aside {
+    top: 2806px;
+    right: 2%;
+  }
+
+  #design-selection {
+    padding: 40px;
+    width: 85%;
+  }
+}
+
+@media (min-width: 1920px) {
+  #zen-intro header {
+    height: 1368px;
+  }
+
+  #zen-intro header h1 {
+    top: 25%;
+    left: 10%;
+  }
+
+  #zen-intro header h2 {
+    top: 28%;
+    left: 10%;
+
+    width: 846px;
+    font-size: 140px;
+  }
+
+  .explanation {
+    width: 590px;
+    padding-left: 60%;
+  }
+
+  .explanation::before {
+    width: 595px;
+  }
+
+  .participation {
+    margin-left: 126px;
+    width: 554px;
+  }
+
+  .benefits {
+    margin-left: 126px;
+    width: 554px;
+  }
+
+  .requirements {
+    margin: 0 126px;
+  }
+
+  aside {
+    top: 3115px;
+    right: 6%;
+  }
+
+  #design-selection {
+    padding: 40px;
+    width: 100%;
+  }
+}
